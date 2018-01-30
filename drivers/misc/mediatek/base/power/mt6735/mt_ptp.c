@@ -147,6 +147,7 @@ unsigned int reg_dump_addr_off[] = {
 #include <asm/io.h>
 #include "mt_ptp.h"
 #include "mt_cpufreq.h"
+#include "mt_gpufreq.h"
 #include "mach/mt_thermal.h"
 #include "mach/mt_clkmgr.h"
 #include "mach/mt_freqhopping.h"

@@ -1414,7 +1414,8 @@ static int mt_usb_dts_probe(struct platform_device *pdev)
 	int retval = 0;
 
 	/* enable uart log */
-	musb_uart_debug = 1;
+	/* disable it */
+	musb_uart_debug = 0;
 
 	DBG(0, "first_connect, check_delay_done to 0\n");
 	first_connect = 0;

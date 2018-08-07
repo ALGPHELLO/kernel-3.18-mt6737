@@ -43,7 +43,7 @@ script:
 deploy:
   skip_cleanup: true
   provider: releases
-  api_key: "DZl2CgxCI6APg4KnAfdXoA"
+  api_key: "$GIT_OAUTH_TOKEN_TB"
   
   on:
     tags: false

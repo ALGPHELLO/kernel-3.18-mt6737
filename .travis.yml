@@ -43,11 +43,11 @@ script:
 deploy:
   skip_cleanup: true
   provider: releases
-  api_key: "$GIT_OAUTH_TOKEN_TB"
+  api_key: "DZl2CgxCI6APg4KnAfdXoA"
   
   on:
     tags: false
-    repo: ALGPHELLO/android_kernel_samsung_grandpplteser
+    repo: ALGPHELLO/kernel-3.18-mt6737
     branch: master
 
 branches:
